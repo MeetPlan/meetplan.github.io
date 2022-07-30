@@ -1,0 +1,40 @@
+---
+main:
+  - name: Namestitev MeetPlan sistema na strežnik
+    ref: "/namestitev"
+    sub:
+      - name: Ustvarjanje virtualnega strežnika pri različnih ponudnikih
+        ref: "/namestitev/streznik"
+        sub:
+          - name: Arnes SPM
+            ref: "/namestitev/streznik/arnesspm"
+          - name: ~okeanos global
+            ref: "/namestitev/streznik/okeanos"
+          - name: Microsoft Azure
+            ref: "/namestitev/streznik/azure"
+      - name: Vzpostavitev domene in poddomene
+        ref: "/namestitev/domena"
+      - name: Kustomizacija MeetPlan sistema (neobvezno)
+        ref: "/namestitev/kustomizacija"
+        sub:
+          - name: Kustomizacija frontenda (spletne aplikacije)
+            ref: "/namestitev/kustomizacija/frontend"
+      - name: Namestitev MeetPlan sistema na strežnik
+        ref: "/namestitev/meetplan"
+        sub:
+          - name: Namestitev Docker orodij
+            ref: "/namestitev/meetplan/docker"
+          - name: Kloniranje MeetPlan repozitorija
+            ref: "/namestitev/meetplan/kloniranje"
+          - name: Pridobivanje SSL certifikata od Let's Encrypt organizacije
+            ref: "/namestitev/meetplan/letsencrypt"
+          - name: Zagon MeetPlan sistema
+            ref: "/namestitev/meetplan/meetplan"
+  - name: Uporaba MeetPlan sistema
+    ref: "/uporaba"
+    sub:
+      - name: Pravice v MeetPlan sistemu
+        ref: "/uporaba/pravice"
+        sub:
+          - name: Administrator
+            ref: "/uporaba/pravice/administrator"

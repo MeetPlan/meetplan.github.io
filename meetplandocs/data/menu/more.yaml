@@ -1,0 +1,6 @@
+---
+more:
+  - name: "GitHub organizacija (koda)"
+    ref: "https://github.com/MeetPlan"
+    external: true
+    icon: "gdoc_github"
