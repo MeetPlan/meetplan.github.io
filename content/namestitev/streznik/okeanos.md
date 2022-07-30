@@ -4,6 +4,14 @@ title: ~okeanos global
 
 V tem delu se boste naučili, kako se ustvari virtualno mašino (glej tudi "virtualni strežnik" oz. "strežnik") s storitvijo ~okeanos global, ki je na voljo vsem uporabnikom Arnes AAI storitev.
 
+{{< hint type=caution title=Pozor >}}
+~okeanos global je sicer brezplačna storitev, na voljo komurkoli, tudi učencem, a ni priporočena. Ima kar nekaj slabosti, med drugimi:
+- zelo velik ping (počasna povezava med strežniki in odjemalci), saj so strežniki locirani v Grčiji,
+- zelo stari operacijski sistemi - veliko jih ni več podprtih,
+- počasen hardware, če primerjamo z drugimi ponudniki,
+- strežniki potečejo po šestih mesecih uporabe - po šestih mesecih izgubite čisto vse podatke
+{{< /hint >}}
+
 {{< toc >}}
 
 ## Prijava z Arnes AAI računom

@@ -28,11 +28,15 @@ main:
             ref: "/namestitev/meetplan/kloniranje"
           - name: Pridobivanje SSL certifikata od Let's Encrypt organizacije
             ref: "/namestitev/meetplan/letsencrypt"
+          - name: NGINX konfiguracija
+            ref: "/namestitev/meetplan/nginx"
           - name: Zagon MeetPlan sistema
             ref: "/namestitev/meetplan/meetplan"
   - name: Uporaba MeetPlan sistema
     ref: "/uporaba"
     sub:
+      - name: MeetPlan aplikacija za računalnike
+        ref: "/uporaba/aplikacija"
       - name: Pravice v MeetPlan sistemu
         ref: "/uporaba/pravice"
         sub:

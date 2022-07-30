@@ -1,4 +1,4 @@
-baseURL = 'https://meetplan.github.io/'
+baseURL = '/'
 languageCode = 'sl-si'
 title = 'MeetPlan dokumentacija'
 theme = "hugo-geekdoc"
@@ -12,6 +12,8 @@ disablePathToLower = true
 
 # Required if you want to render robots.txt template
 enableRobotsTXT = true
+
+enableEmoji = true
 
 # Needed for mermaid shortcodes
 [markup]
@@ -28,4 +30,3 @@ enableRobotsTXT = true
 [params]
   geekdocMenuBundle = true
   geekdocLogo = "meetplan.png"
-  
