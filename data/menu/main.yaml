@@ -17,8 +17,8 @@ main:
       - name: Kustomizacija MeetPlan sistema (neobvezno)
         ref: "/namestitev/kustomizacija"
         sub:
-          - name: Kustomizacija frontenda (spletne aplikacije)
-            ref: "/namestitev/kustomizacija/frontend"
+          - name: Kustomizacija zalednega dela (backenda) - neobvezno, a priporočljivo
+            ref: "/namestitev/kustomizacija/backend"
       - name: Namestitev MeetPlan sistema na strežnik
         ref: "/namestitev/meetplan"
         sub:
@@ -42,3 +42,19 @@ main:
         sub:
           - name: Administrator
             ref: "/uporaba/pravice/administrator"
+          - name: Ravnatelj
+            ref: "/uporaba/pravice/ravnatelj"
+          - name: Pomočnik ravnatelja
+            ref: "/uporaba/pravice/pomocnikravnatelja"
+          - name: Šolski psiholog
+            ref: "/uporaba/pravice/solskipsiholog"
+          - name: Razrednik
+            ref: "/uporaba/pravice/razrednik"
+          - name: Učitelj
+            ref: "/uporaba/pravice/ucitelj"
+          - name: Organizator prehrane
+            ref: "/uporaba/pravice/organizatorprehrane"
+          - name: Starš
+            ref: "/uporaba/pravice/stars"
+          - name: Učenec
+            ref: "/uporaba/pravice/ucenec"

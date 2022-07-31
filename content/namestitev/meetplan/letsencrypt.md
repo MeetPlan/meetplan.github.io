@@ -53,8 +53,10 @@ Sedaj, vse kar potrebujete, je izvesti naslednje ukaze. Ti ukazi bodo namestili 
 ```sh
 chmod +x getdhparam.sh
 chmod +x initcert.sh
+chmod +x initschoolcert.sh
 ./getdhparam.sh
 ./initcert.sh
+./initschoolcert.sh
 sudo docker-compose down
 ```
 
