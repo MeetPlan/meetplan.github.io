@@ -30,3 +30,8 @@ enableEmoji = true
 [params]
   geekdocMenuBundle = true
   geekdocLogo = "meetplan.png"
+  geekdocRepo = "https://github.com/MeetPlan/meetplan.github.io"
+
+  [params.geekdocContentLicense]
+    name = "GNU General Public License v3.0"
+    link = "https://github.com/MeetPlan/meetplan.github.io/blob/main/LICENSE"
