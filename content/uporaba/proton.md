@@ -4,7 +4,7 @@ title: Proton modul
 
 Proton je modul, ki šolam olajša delo z urniki in nadomeščanji, saj avtomatično predlaga najboljše možne rešitve za te probleme.
 
-{{< hint type=note title=Zabavno dejstvo >}}
+{{< hint type=note title="Zabavno dejstvo" >}}
 Glavno in uradno ime temu modulu je Proton. Proton modul ima poleg "Proton" imena še eno drugo uradno (manj pogosto) ime, in sicer "Guinea pig" modul. Če vas zanima, kako smo prišli do tega imena - no, izkaže se, da ima avtor MeetPlan sistema zelo rad morske prašičke.
 {{< /hint >}}
 
