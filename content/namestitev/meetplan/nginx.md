@@ -4,7 +4,7 @@ title: NGINX konfiguracija
 
 Odprite datoteko `default.conf` z `nano` urejevalnikom besedil - `nano default.conf`.
 
-Zamenjajte VSE omembe `example.com` s svojo poddomeno, v mojemu primeru je to `meetplan.meetplan.ml`.
+Zamenjajte VSE omembe `example.com` s svojo poddomeno, v mojemu primeru je to `demo.meetplan.si`.
 
 Morale bi biti 4 vrstice, ki vsebujejo to domeno, od tega dve vrstici `server_name`, ena `ssl_certificate` vrstica in ena `ssl_certificate_key` vrstica.
 
@@ -13,7 +13,7 @@ Končna konfiguracija bi morala izgledati nekako tako:
 server {
     listen 80;
     listen [::]:80;
-    server_name meetplan.meetplan.ml;
+    server_name demo.meetplan.si;
 
     location ~ /.well-known/acme-challenge {
         allow all;
@@ -28,12 +28,12 @@ server {
 server {
    listen 443 ssl http2;
    listen [::]:443 ssl http2;
-   server_name meetplan.meetplan.ml;
+   server_name demo.meetplan.si;
 
    server_tokens off;
 
-   ssl_certificate /etc/letsencrypt/live/meetplan.meetplan.ml/fullchain.pem;
-   ssl_certificate_key /etc/letsencrypt/live/meetplan.meetplan.ml/privkey.pem;
+   ssl_certificate /etc/letsencrypt/live/demo.meetplan.si/fullchain.pem;
+   ssl_certificate_key /etc/letsencrypt/live/demo.meetplan.si/privkey.pem;
 
    ssl_buffer_size 8k;
 
