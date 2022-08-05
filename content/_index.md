@@ -17,3 +17,7 @@ Zaledni del je napisan v [Go-ju](https://go.dev/), medtem ko je sprednji del (sp
 {{< hint type=caution title=Pozor >}}
 MeetPlan sistem je trenutno še v fazi razvoja. Vse napake se lahko prijavijo razvijalcem na [GitHub repozitoriju](https://github.com/MeetPlan/MeetPlanFrontend/issues).
 {{< /hint >}}
+
+{{< hint type=caution title=Pozor >}}
+Nekatere slike v tej dokumentaciji so starejše od drugih. Princip ostane enak, samo kaka funkcija več je dodana. Prosimo, da to upoštevate.
+{{< /hint >}}

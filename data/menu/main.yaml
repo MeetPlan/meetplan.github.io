@@ -58,3 +58,7 @@ main:
             ref: "/uporaba/pravice/stars"
           - name: Učenec
             ref: "/uporaba/pravice/ucenec"
+      - name: Komunikacija
+        ref: "/uporaba/komunikacija"
+      - name: Proton
+        ref: "/uporaba/proton"
