@@ -62,3 +62,5 @@ main:
         ref: "/uporaba/komunikacija"
       - name: Proton
         ref: "/uporaba/proton"
+      - name: Šolska prehrana
+        ref: "/uporaba/prehrana"
