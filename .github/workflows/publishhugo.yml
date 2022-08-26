@@ -12,6 +12,8 @@ jobs:
           hugo-version: "latest"
       - name: Build
         run: hugo --minify
+      - name: Add CNAME record
+        run: echo "meetplan.si" > public/CNAME
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
