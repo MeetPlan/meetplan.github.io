@@ -62,5 +62,15 @@ main:
         ref: "/uporaba/komunikacija"
       - name: Proton
         ref: "/uporaba/proton"
+  - name: Dokumentacija za razvijalce
+    ref: "/razvijalci"
+    sub:
+      - name: Razvijalsko okolje
+        ref: "/razvijalci/okolje"
+        sub:
+          - name: Namestitev razvijalskega okolja za zaledni del (backend)
+            ref: "/razvijalci/okolje/backend"
+          - name: Namestitev razvijalskega okolja za aplikacijo (frontend)
+            ref: "/razvijalci/okolje/frontend"
       - name: Šolska prehrana
         ref: "/uporaba/prehrana"
