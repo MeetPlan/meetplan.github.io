@@ -62,6 +62,8 @@ main:
         ref: "/uporaba/komunikacija"
       - name: Proton
         ref: "/uporaba/proton"
+      - name: Šolska prehrana
+        ref: "/uporaba/prehrana"
   - name: Dokumentacija za razvijalce
     ref: "/razvijalci"
     sub:
@@ -72,5 +74,3 @@ main:
             ref: "/razvijalci/okolje/backend"
           - name: Namestitev razvijalskega okolja za aplikacijo (frontend)
             ref: "/razvijalci/okolje/frontend"
-      - name: Šolska prehrana
-        ref: "/uporaba/prehrana"
