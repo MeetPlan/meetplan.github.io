@@ -14,23 +14,12 @@ main:
             ref: "/namestitev/streznik/azure"
       - name: Vzpostavitev domene in poddomene
         ref: "/namestitev/domena"
-      - name: Kustomizacija MeetPlan sistema (neobvezno)
-        ref: "/namestitev/kustomizacija"
-        sub:
-          - name: Kustomizacija zalednega dela (backenda) - neobvezno, a priporočljivo
-            ref: "/namestitev/kustomizacija/backend"
       - name: Namestitev MeetPlan sistema na strežnik
         ref: "/namestitev/meetplan"
         sub:
-          - name: Namestitev Docker orodij
-            ref: "/namestitev/meetplan/docker"
           - name: Kloniranje MeetPlan repozitorija
             ref: "/namestitev/meetplan/kloniranje"
-          - name: Pridobivanje SSL certifikata od Let's Encrypt organizacije
-            ref: "/namestitev/meetplan/letsencrypt"
-          - name: NGINX konfiguracija
-            ref: "/namestitev/meetplan/nginx"
-          - name: Zagon MeetPlan sistema
+          - name: Namestitev vsega potrebnega in zagon MeetPlan sistema
             ref: "/namestitev/meetplan/meetplan"
   - name: Uporaba MeetPlan sistema
     ref: "/uporaba"

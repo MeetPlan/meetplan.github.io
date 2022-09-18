@@ -34,6 +34,10 @@ Predloga je zelo pomembna. Izbrali bomo kar predpripravljeno predlogo, priporoč
 ![image](https://user-images.githubusercontent.com/52399966/182017369-7aee85a2-48f5-41d8-a32f-312b5252e2c8.png)
 
 {{< hint type=important title=Pomembno >}}
+Kot operacijski sistem se priporočata Ubuntu Server ali pa Debian GNU/Linux, saj sta samo te dve distribuciji zaenkrat podprti v avtomatičnem namestitvenem orodju.
+{{< /hint >}}
+
+{{< hint type=important title=Pomembno >}}
 Ubuntu 20.04 LTS **NI** Windows ali kakorkoli podoben Windowsu. Ubuntu je t.i. Linux sistem, ki temelji na Unix sistemih. MacOS je Unix sistem, zato so Linux komande zelo podobne MacOS komandam v terminalu/konzoli.
 {{< /hint >}}
 
