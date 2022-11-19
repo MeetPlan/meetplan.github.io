@@ -14,4 +14,8 @@ Ta navodila so napisana na Linux sistemu, kar pomeni, da so določeni ukazi spec
 
 Prvo morate poskrbeti, da klonirate vse repozitorije.
 
-![image](/developerdocs/gitclonemeetplan.svg)
+```shell
+git clone https://github.com/MeetPlan/MeetPlanBackend
+git clone https://github.com/MeetPlan/MeetPlanFrontend
+```
+![AfOSn](https://user-images.githubusercontent.com/52399966/202866996-bdf7f506-6cc7-43b3-ad88-0f2ead6ae8b2.svg)

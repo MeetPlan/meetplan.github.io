@@ -59,6 +59,8 @@ main:
       - name: Razvijalsko okolje
         ref: "/razvijalci/okolje"
         sub:
+          - name: Namestitev podatkovne baze (PostgreSQL)
+            ref: "/razvijalci/okolje/database"
           - name: Namestitev razvijalskega okolja za zaledni del (backend)
             ref: "/razvijalci/okolje/backend"
           - name: Namestitev razvijalskega okolja za aplikacijo (frontend)
