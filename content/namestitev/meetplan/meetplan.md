@@ -6,10 +6,14 @@ title: Namestitev vsega potrebnega in zagon MeetPlan sistema
 
 ---
 
+{{< hint type=important title=Pomembno >}}
+Za vse šole, ki same gostijo oz. bodo gostile, prosimo pišite na info@meetplan.si, da vas dodamo na e-poštni seznam. E-poštni seznami bodo **VEDNO PRAVOČASNO** prejeli pomembne informacije glede sprememb in vodiče po teh spremembah (čeprav teh ne bo veliko, saj se bo najverjetneje vse uredilo avtomatsko), zato je **ZELO PRIPOROČENO**, da dodate svojo šolo na seznam obveščanja (e-poštni seznam).
+{{< /hint >}}
+
 # Avtomatična namestitev MeetPlan sistema
 Vpišite naslednji ukaz in ga poženite: `chmod +x setup.sh && ./setup.sh`
 
-Zagnalo bo uradno avtomatsko namestitveno orodje za MeetPlan sistem. Vse kar morate delati, je to, da sledite navodilom, katera se vam sproti izpisujejo.
+Zagnalo bo uradno avtomatsko namestitveno orodje za MeetPlan sistem. Vse, kar morate delati, je to, da sledite navodilom, katera se vam sproti izpisujejo.
 
 ![image](https://user-images.githubusercontent.com/52399966/190896099-f3b33c71-220f-435b-bb4d-2dd1f43b93d9.png)
 

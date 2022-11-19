@@ -6,6 +6,10 @@ title: Arnes SPM
 Arnes SPM je priporočena storitev, saj je vse gosteno na Arnesovih strežnikih in strežniki nikoli ne potečejo.
 {{< /hint >}}
 
+{{< hint type=important title=Pomembno >}}
+Za vse šole, ki same gostijo oz. bodo gostile, prosimo pišite na info@meetplan.si, da vas dodamo na e-poštni seznam. E-poštni seznami bodo **VEDNO PRAVOČASNO** prejeli pomembne informacije glede sprememb in vodiče po teh spremembah (čeprav teh ne bo veliko, saj se bo najverjetneje vse uredilo avtomatsko), zato je **ZELO PRIPOROČENO**, da dodate svojo šolo na seznam obveščanja (e-poštni seznam).
+{{< /hint >}}
+
 Najlepša hvala [Arnesu](https://www.arnes.si) za dostop do te storitve. Brez dostopa ne bi moral narediti tega priročnika. Hvala :pray:.
 
 {{< toc >}}
